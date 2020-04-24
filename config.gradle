@@ -1,0 +1,21 @@
+ext{
+//    android配置
+    android = [
+        compileSdkVersion:29,
+        buildToolsVersion:"29.0.2",
+        minSdkVersion:19,
+        targetSdkVersion:29,
+        versionCode:1,
+        versionName:"1.0",
+        mutidex:true
+    ]
+
+//    版本号
+    depsVersion = [
+            appcompat:"1.1.0"
+    ]
+//第三方库
+    depsLibs = [
+            appcompat:"androidx.appcompat:appcompat:${depsVersion.appcompat}"
+    ]
+}
