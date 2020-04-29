@@ -12,10 +12,36 @@ ext{
 
 //    版本号
     depsVersion = [
-            appcompat:"1.1.0"
+            appcompat:"1.1.0",
+            magicIndicator:"1.5.0",
+            okhttp:"3.10.0",
+            glide:"4.9.0",
+            rxjava2:"2.0.1",
+            eventbus:"3.2.0",
+            recyclerview:"1.0.0",
+            greenDao:"3.2.2"
     ]
 //第三方库
     depsLibs = [
-            appcompat:"androidx.appcompat:appcompat:${depsVersion.appcompat}"
+            appcompat:"androidx.appcompat:appcompat:${depsVersion.appcompat}",
+            //viewpager的指示器
+            magicIndicator:"com.github.hackware1993:MagicIndicator:${depsVersion.magicIndicator}",
+           //okhttp
+            okhttp: "com.squareup.okhttp3:okhttp:${depsVersion.okhttp}",
+            //gilde图片加载
+            glide: "com.github.bumptech.glide:glide:${depsVersion.glide}",
+            glideCompiler:"com.github.bumptech.glide:compiler:${depsVersion.glide}",
+            //Rxjava
+            rxjava2: "io.reactivex.rxjava2:rxjava:${depsVersion.rxjava2}",
+            rxandroid: "io.reactivex.rxjava2:rxandroid:${depsVersion.rxjava2}",
+            //eventBus
+            eventbus: "org.greenrobot:eventbus:${depsVersion.eventbus}",
+            //recyclerview
+            recyclerview:"androidx.recyclerview:recyclerview:${depsVersion.recyclerview}",
+            //design
+            design:'com.google.android.material:material:1.0.0',
+            //greentDao
+            greendao:"org.greenrobot:greendao:${depsVersion.greenDao}" // 添加库
+
     ]
 }
